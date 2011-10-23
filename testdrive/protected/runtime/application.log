@@ -1,0 +1,12 @@
+2011/10/23 20:38:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<controlle/install".' in T:\home\at-cms.ru\www\framework\web\CWebApplication.php:281
+Stack trace:
+#0 T:\home\at-cms.ru\www\framework\web\CWebApplication.php(136): CWebApplication->runController('<controlle/inst...')
+#1 T:\home\at-cms.ru\www\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 T:\home\at-cms.ru\www\testdrive\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/testdrive/index.php/userGroups/install
+2011/10/23 20:39:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<controller/install".' in T:\home\at-cms.ru\www\framework\web\CWebApplication.php:281
+Stack trace:
+#0 T:\home\at-cms.ru\www\framework\web\CWebApplication.php(136): CWebApplication->runController('<controller/ins...')
+#1 T:\home\at-cms.ru\www\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 T:\home\at-cms.ru\www\testdrive\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/testdrive/index.php/userGroups/install
