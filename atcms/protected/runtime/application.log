@@ -1,0 +1,12 @@
+2011/11/02 20:27:11 [error] [php] assert() [<a href='function.assert'>function.assert</a>]: Assertion failed (T:\home\at-cms.ru\www\atcms\protected\controllers\BranchController.php:14)
+Stack trace:
+#0 T:\home\at-cms.ru\www\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 T:\home\at-cms.ru\www\framework\web\CController.php(278): BranchController->runAction()
+#2 T:\home\at-cms.ru\www\framework\web\CController.php(257): BranchController->runActionWithFilters()
+#3 T:\home\at-cms.ru\www\framework\web\CWebApplication.php(277): BranchController->run()
+#4 T:\home\at-cms.ru\www\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#5 T:\home\at-cms.ru\www\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#6 T:\home\at-cms.ru\www\atcms\index.php(13): CWebApplication->run()
+REQUEST_URI=/atcms/branch/test/1
+in T:\home\at-cms.ru\www\atcms\protected\controllers\BranchController.php (14)
+in T:\home\at-cms.ru\www\atcms\index.php (13)
