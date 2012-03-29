@@ -2,3 +2,6 @@
 
 print("WTF")  
 ?>
+
+
+<? /* comment nah*/?>
