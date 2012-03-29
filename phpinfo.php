@@ -1,3 +1,4 @@
 <?
 phpinfo();
+// one more comment
 ?>

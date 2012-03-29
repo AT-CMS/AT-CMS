@@ -1,4 +1,4 @@
 <?php
 
-print("WTF")  
+print("WTF") ;
 ?>
